@@ -7,12 +7,12 @@
 <h4 align="center">Repositório com objetivo de enviar as atividades e challenge da Sprint 4 - Ruby e Versionamento de código.</h4>
 
 <p align="center">
-  <a href="sobre">Sobre</a> •
-  <a href="pré-requisitos">Pré-requisitos</a> •
-  <a href="executar-atividades">Atividades</a> •
-  <a href="executar-calculadora">Calculadora</a> •
-  <a href="créditos">Créditos</a> •
-  <a href="como-me-achar">Como me Achar</a> •
+  <a href="#sobre">Sobre</a> •
+  <a href="#pré-requisitos">Pré-requisitos</a> •
+  <a href="#executar-atividades">Atividades</a> •
+  <a href="#executar-calculadora">Calculadora</a> •
+  <a href="#créditos">Créditos</a> •
+  <a href="#como-me-achar">Como me Achar</a> •
 </p>
 
 ## ✨ Sobre:
