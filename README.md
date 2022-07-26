@@ -6,19 +6,10 @@
 
 <h4 align="center">Repositório com objetivo de enviar as atividades e challenge da Sprint 4 - Ruby e Versionamento de código.</h4>
 
-<p align="center">
-  <a href="#sobre">Sobre</a> •
-  <a href="#pré-requisitos">Pré-requisitos</a> •
-  <a href="#executar-atividades">Atividades</a> •
-  <a href="#executar-calculadora">Calculadora</a> •
-  <a href="#créditos">Créditos</a> •
-  <a href="#como-me-achar">Como me Achar</a> •
-</p>
-
 ## ✨ Sobre:
 ```bash
 Este repositório contém:
-- Atividades TTDs
+- Atividades Ruby Koans
 - Challenge final da sprint (Calculadora)
 ```
 
@@ -56,10 +47,6 @@ Este repositório contém:
 <h1 align="center">
   <a href="https://www.linkedin.com/in/júlia-parizotto-maciel/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="145">
-</a>
-
-<a href="mailto:juliap.maciel@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="115">
 </a>
 
 <a href="https://www.instagram.com/HemlockCamp">
