@@ -45,7 +45,7 @@ class AboutMethods < Neo::Koan
     assert_match(/wrong number/, exception.message)
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   def method_with_defaults(a, b=:default_value)
     [a, b]
@@ -56,7 +56,7 @@ class AboutMethods < Neo::Koan
     assert_equal [1, 2], method_with_defaults(1, 2)
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   def method_with_var_args(*args)
     args
@@ -69,7 +69,7 @@ class AboutMethods < Neo::Koan
     assert_equal [:one, :two], method_with_var_args(:one, :two)
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   def method_with_explicit_return
     :a_non_return_value
@@ -81,7 +81,7 @@ class AboutMethods < Neo::Koan
     assert_equal :return_value, method_with_explicit_return
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   def method_without_explicit_return
     :a_non_return_value
@@ -92,7 +92,7 @@ class AboutMethods < Neo::Koan
     assert_equal :return_value, method_without_explicit_return
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   def my_method_in_the_same_class(a, b)
     a * b
@@ -106,7 +106,7 @@ class AboutMethods < Neo::Koan
     assert_equal 12, self.my_method_in_the_same_class(3,4)
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   def my_private_method
     "a secret"
@@ -126,7 +126,7 @@ class AboutMethods < Neo::Koan
     end
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   class Dog
     def name

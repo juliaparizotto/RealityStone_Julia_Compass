@@ -54,7 +54,7 @@ class AboutClasses < Neo::Koan
     assert_equal "Fido", fido.instance_eval { @name } # block version
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   class Dog3
     def set_name(a_name)
@@ -72,7 +72,7 @@ class AboutClasses < Neo::Koan
     assert_equal "Fido", fido.name
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   class Dog4
     attr_reader :name
@@ -90,7 +90,7 @@ class AboutClasses < Neo::Koan
     assert_equal "Fido", fido.name
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   class Dog5
     attr_accessor :name
@@ -104,7 +104,7 @@ class AboutClasses < Neo::Koan
     assert_equal "Fido", fido.name
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   class Dog6
     attr_reader :name
@@ -133,7 +133,7 @@ class AboutClasses < Neo::Koan
     assert_equal true, rover.name != fido.name
   end
 
-  # ------------------------------------------------------------------
+  # -----------------------------------------------------------------
 
   class Dog7
     attr_reader :name
