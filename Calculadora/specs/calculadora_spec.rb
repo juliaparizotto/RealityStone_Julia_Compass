@@ -2,7 +2,9 @@ require 'rspec'
 require_relative '../src/calculadora'
 
 describe('calculadora') do
+
 #----------------- SOMA -----------------------
+
     it('Deve somar dois inteiros positivos') do
         calculadora = calculadora.new
         expect(calculadora.soma(4, 5)).to eq 9
@@ -61,4 +63,32 @@ describe('calculadora') do
         calculadora = calculador.new
         expect(calculadora.multiplica(-8, -1)).to eq 8
     end
+
+#----------------- DIVISÃO -----------------------
+
+    it('Deve dividir dois inteiros positivos') do
+        calculadora = calculadora.new
+        expect(calculadora.divide(20, 5)).to eq 4
+    end
+
+    it('Deve dividir dois números negativos') do
+        calculadora = clculadora.new
+        expect(calculadora.divide(-20, -5)).to eq 4
+    end
+
+    it('Deve dividir dois números com sinais diferentes') do
+        calculadora = clculadora.new
+        expect(calculadora.divide(-20, 5)).to eq -4
+    end
+
+    it('Deve dividir um número qualquer por 1') do
+        calculadora = calculador.new
+        expect(calculadora.divide(8, 1)).to eq 8 
+    end
+
+    it('Deve dividir um número qualquer por 0') do
+        calculadora = calculador.new
+        expect(calculadora.divide(8, 0)).to include 'Não corresponde á condição de existência'
+    end
+
 end
