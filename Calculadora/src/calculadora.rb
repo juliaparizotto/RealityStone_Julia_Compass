@@ -4,4 +4,10 @@ class Calculadora
         soma_calculada = a + b
         soma_calculada.round(1)
     end
+
+    def subtrai(a, b)
+        a - b
+        subtração_calculada = a - b
+        subtração_calculada.round(1)
+    end
 end
