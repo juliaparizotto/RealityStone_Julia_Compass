@@ -10,4 +10,10 @@ class Calculadora
         subtração_calculada = a - b
         subtração_calculada.round(1)
     end
+
+    def multiplica(a, b)
+        a * b
+        multiplicação_calculada = a * b
+        multiplicação_calculada.round(1)
+    end
 end
