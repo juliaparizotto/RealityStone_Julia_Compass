@@ -37,17 +37,28 @@ describe('calculadora') do
 
 #----------------- MULTIPLIÇÃO -----------------------
 
-    it('Deve subtrair dois inteiros positivos') do
+    it('Deve multiplicar dois inteiros positivos') do
         calculadora = calculadora.new
-        expect(calculadora.multiplica(5, 4)).to eq 1
+        expect(calculadora.multiplica(5, 4)).to eq 20
     end
 
-    it('Deve subtrair dois números negativos') do
+    it('Deve multiplicar dois números negativos') do
         calculadora = clculadora.new
-        expect(calculadora.multiplica(-9, -10)).to eq -1
+        expect(calculadora.multiplica(-9, -10)).to eq 90
     end
 
-    it('Deve subtrair um número qualquer de 0') do
+    it('Deve multiplicar um número qualquer por 0') do
         calculadora = calculador.new
-        expect(calculadora.multiplica(0, 9)).to eq -9
+        expect(calculadora.multiplica(7, 0)).to eq 0
+    end
+
+    it('Deve multiplicar um número positivo por -1') do
+        calculadora = calculador.new
+        expect(calculadora.multiplica(8, -1)).to eq -8
+    end
+
+    it('Deve multiplicar um número negativo por -1') do
+        calculadora = calculador.new
+        expect(calculadora.multiplica(-8, -1)).to eq 8
+    end
 end
