@@ -4,65 +4,76 @@
   <br>
 </h1>
 
-<h4 align="center">Repositório com objetivo de enviar as atividades e challenge da Sprint 4 - Ruby e Versionamento de código.</h4>
+<h4 align="center">Repositório com objetivo de enviar as atividades e challenge durante Sprint 4 - Ruby e Versionamento de código.</h4>
 
 <p align="center">
-  <a href="sobre">Sobre</a> •
-  <a href="pré-requisitos">Pré-requisitos</a> •
-  <a href="executar-atividades">Atividades</a> •
-  <a href="executar-calculadora">Calculadora</a> •
-  <a href="créditos">Créditos</a> •
-  <a href="como-me-achar">Como me Achar</a> •
+  <a href="#sobres">Sobre</a> •
+  <a href="#pre-requisitos">Pré-requisitos</a> •
+  <a href="#instalacao">Instalação</a> •
+  <a href="#como-executar-as-atividades-ruby-koans">Ruby Koans</a> •
+  <a href="#como-executar-a-calculadora">Calculadora</a> •
+  <a href="#creditos">Créditos</a>
+  <a href="#licencas">Licenças</a>
+  <a href="#autoria">Autoria</a>
 </p>
 
 ## ✨ Sobre:
 ```bash
 Este repositório contém:
-- Atividades TTDs
-- Challenge final da sprint (Calculadora)
+  → Atividades Ruby Koans
+      → about_arrays.rb
+      → about_asserts.rb
+      → about_classes.rb
+      → about_iteration.rb
+      → about_methods.rb
+      → about_modules.rb
+      → about_true_and_false.rb
+      
+  → Challenge final da Sprint
+      → Calculadora
+        → Soma
+        → Subtração
+        → Multiplicação
+        → Divisão
+      → TDD's
 ```
 
 ## ✨ Pré-requisitos:
 ```bash
-- ruby > 5.5.0
-- rspec > 3.4.0
-- git > 2.36.1
+→ ruby > 3.1.2
+→ rspec > 3.11.0
+→ git > 2.36.1
+→ cmder > 1.3.19
 ```
 
-## ✨ Executar atividades
+## ✨ Instalação
 ```bash
-
-
-
+→ gem install rspec -v 3.4.0
+→ gem 'rspec', '~> 3.4'
 ```
 
-## ✨ Executar Calculadora
+## ✨ Como executar as atividades Ruby Koans
 ```bash
+→ ruby about_"name".rb
+```
 
-
-
-
+## ✨ Como executar a Calculadora
+```bash
+→ rspec "specs\calculadora_spec.rb"
 ```
 
 ## ✨ Créditos
-```bash
+- [Ruby Koans](http://rubykoans.com/)
+- [Ruby](https://rubyinstaller.org/downloads/)
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
+## ✨Licenças
+- Copyright (c) [Júlia Parizotto Maciel](https://github.com/juliaparizotto/RealityStone_Julia_Compass/blob/main/LICENSE)
+- Copyright (c) [Compass](https://compass.uol/)
 
+## ✨ Autoria
+#### 👱🏻‍♀️ Júlia Parizotto Maciel
+- [Linkedin](https://www.linkedin.com/in/j%C3%BAlia-parizotto-maciel/)
+- [Github](https://github.com/juliaparizotto)
 
-
-```
-
-## ✨ Como me achar: 
-<h1 align="center">
-  <a href="https://www.linkedin.com/in/júlia-parizotto-maciel/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="145">
-</a>
-
-<a href="mailto:juliap.maciel@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="115">
-</a>
-
-<a href="https://www.instagram.com/HemlockCamp">
-	<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" width="160">
-</a>
-</h1>
