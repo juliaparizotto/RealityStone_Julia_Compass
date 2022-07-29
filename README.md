@@ -70,7 +70,7 @@ Este repositório contém:
 
 ## ✨Licenças
 - Copyright (c) [Júlia Parizotto Maciel](https://github.com/juliaparizotto/RealityStone_Julia_Compass/blob/main/LICENSE)
-- Copyright (c) [Compasso]
+- Copyright (c) [Compass](https://compass.uol/)
 
 ## ✨ Autoria
 #### 👱🏻‍♀️ Júlia Parizotto Maciel
