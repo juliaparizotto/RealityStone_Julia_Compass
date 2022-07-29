@@ -218,4 +218,71 @@ describe('Calculadora') do
         calculadora = Calculadora.new
         expect(calculadora.multiplica(-3.6, -7.9)).to eq 28.4
     end   
+
+    #----------------- DIVISÃO -----------------------
+    
+    it('Deve dividir dois números inteiros positivos diferentes de 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(20, 5)).to eq 4
+    end
+    
+    it('Deve dividir dois números inteiros negativos diferentes de 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(-20, -5)).to eq 4
+    end
+    
+    it('Deve dividir dois números inteiros, diferentes de 0, com sinais diferentes') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(-20, 5)).to eq -4
+    end
+    
+    it('Deve dividir um número inteiro, diferente de 0, por 1') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(8, 1)).to eq 8 
+    end
+    
+    it('Não deve dividir qualquer número inteiro por 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(2, 0)).to include 'Não corresponde á condição de existência!'
+    end
+
+    it('Deve dividir dois números decimais positivos, diferentes de 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(51.4, 8.5)).to eq 6.0
+    end
+    
+    it('Deve dividir dois números decimais negativos, diferentes de 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(-3.1, -10.8)).to eq 0.3
+    end
+    
+    it('Deve dividir um número decimal positivo, diferente de 0, por um negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(18.6, -6.0)).to eq -3.1
+    end
+    
+    it('Não deve dividir qualquer número decimal por 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(7.4, 0)).to include 'Não corresponde á condição de existência!'
+    end
+
+    it('Deve dividir um número decimal positivo, diferente de 0, por um número inteiro positivo') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(1.2, 9)).to eq 0.1
+    end
+
+    it('Deve dividir um número decimal negativo, diferente de 0, por um número inteiro positivo') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(-8.6, 10)).to eq -0.9
+    end
+
+    it('Deve dividir um número decimal positivo, diferente de 0, por um número inteiro negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(6.3, -3)).to eq -2.1
+    end
+
+    it('Deve dividir um número decimal negativo, diferente de 0, por número inteiro negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.divide(-3.6, -7.9)).to eq 0.5
+    end
 end

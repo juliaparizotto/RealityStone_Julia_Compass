@@ -16,4 +16,14 @@ class Calculadora
         multiplicação_calculada = a * b
         multiplicação_calculada.round(1)
     end
+
+    def divide(a, b)
+        if a == 0 or b == 0
+            return 'Não corresponde á condição de existência!'
+        end
+        a / b
+        divisão_calculada = a / b
+        divisão_calculada.round(1)
+    end
+
 end
