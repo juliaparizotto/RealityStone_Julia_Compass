@@ -55,4 +55,13 @@ class Calculadora
         cosseno_calculado = Math.cos(a* (Math::PI/180))
         cosseno_calculado.round(3)
     end
+
+    def tangente(a)
+        if a == 90 or a == -90
+            return 'A tangente de 90 e -90 não existe!'
+        end
+        Math.tan(a * Math::PI/180)
+        seno_calculada = Math.tan(a * Math::PI/180)
+        seno_calculada.round(3)
+    end
 end

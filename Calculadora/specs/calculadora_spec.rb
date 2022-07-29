@@ -394,4 +394,30 @@ describe('Calculadora') do
         calculadora = Calculadora.new
         expect(calculadora.cosseno(-0.9)).to eq 1
     end
+    #----------------- TANGENTE-----------------------
+
+    it('Deve fazer a tangente em graus de um número inteiro positivos') do
+        calculadora = Calculadora.new
+        expect(calculadora.tangente(30)).to eq 0.577
+    end
+
+    it('Deve fazer a tangente em graus de um número inteiro negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.tangente(-90)).to include 'A tangente de 90 e -90 não existe!'
+    end
+
+    it('Deve fazer a tangente em graus de 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.tangente(0)).to eq 0
+    end
+
+    it('Deve fazer a tangente em graus de um número decimal positivo') do
+        calculadora = Calculadora.new
+        expect(calculadora.tangente(0.9)).to eq 0.016
+    end
+
+    it('Deve fazer a tangente em graus de um número decimal negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.tangente(-0.9)).to eq -0.016
+    end
 end
