@@ -26,4 +26,13 @@ class Calculadora
         divisão_calculada.round(1)
     end
 
+    def raiz2(a)
+        if a == 0 or a < 0
+            return 'Não corresponde á condição de existência!'
+        end
+        Math.sqrt(a)
+        raiz2_calculada = Math.sqrt(a)
+        raiz2_calculada.round(2)
+    end
+
 end

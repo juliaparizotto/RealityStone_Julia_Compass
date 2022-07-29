@@ -286,4 +286,31 @@ describe('Calculadora') do
         calculadora = Calculadora.new
         expect(calculadora.divide(-3.6, -7.9)).to eq 0.5
     end
+
+    #----------------- RAIZ QUADRADA -----------------------
+
+    it('Deve fazer a raiz quadrada de um número inteiro positivo') do
+        calculadora = Calculadora.new
+        expect(calculadora.raiz2(16)).to eq 4
+    end
+
+    it('Não deve fazer a raiz quadrada de números inteiros negativos') do
+        calculadora = Calculadora.new
+        expect(calculadora.raiz2(-49)).to include 'Não corresponde á condição de existência!'
+    end
+
+    it('Não deve fazer a raiz quadrada de 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.raiz2(0)).to include 'Não corresponde á condição de existência!'
+    end
+
+    it('Deve fazer a raiz quadrada de um número decimal positivo') do
+        calculadora = Calculadora.new
+        expect(calculadora.raiz2(0.4)).to eq 0.63
+    end
+
+    it('Não deve fazer a raiz quadrada de um número decimal negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.raiz2(-9.4)).to include 'Não corresponde á condição de existência!'
+    end
 end
