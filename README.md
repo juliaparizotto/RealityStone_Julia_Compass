@@ -11,15 +11,31 @@
   <a href="#pre-requisitos">Pré-requisitos</a> •
   <a href="#instalacao">Instalação</a> •
   <a href="#como-executar-as-atividades-ruby-koans">Ruby Koans</a> •
-  <a href="#como-executar-a-calculadora">Related</a> •
+  <a href="#como-executar-a-calculadora">Calculadora</a> •
   <a href="#creditos">Créditos</a>
+  <a href="#licencas">Licenças</a>
+  <a href="#autoria">Autoria</a>
 </p>
 
 ## ✨ Sobre:
 ```bash
 Este repositório contém:
-→ Atividades Ruby Koans
-→ Challenge final da Sprint (Calculadora e TDDs)
+  → Atividades Ruby Koans
+      → about_arrays.rb
+      → about_asserts.rb
+      → about_classes.rb
+      → about_iteration.rb
+      → about_methods.rb
+      → about_modules.rb
+      → about_true_and_false.rb
+      
+  → Challenge final da Sprint
+      → Calculadora
+        → Soma
+        → Subtração
+        → Multiplicação
+        → Divisão
+      → TDD's
 ```
 
 ## ✨ Pré-requisitos:
@@ -55,7 +71,7 @@ Este repositório contém:
 ## ✨Licenças
 
 
-## ✨ Autora
+## ✨ Autoria
 #### 👱🏻‍♀️ Júlia Parizotto Maciel
 - [Linkedin](https://www.linkedin.com/in/j%C3%BAlia-parizotto-maciel/)
 - [Github](https://github.com/juliaparizotto)
