@@ -1,4 +1,5 @@
 require 'rspec'
+require 'pry'
 require_relative '../src/calculadora'
 
 describe('Calculadora') do
