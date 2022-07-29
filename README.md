@@ -69,7 +69,8 @@ Este repositório contém:
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## ✨Licenças
-
+- Copyright (c) [Júlia Parizotto Maciel](https://github.com/juliaparizotto/RealityStone_Julia_Compass/blob/main/LICENSE)
+- Copyright (c) [Compasso]
 
 ## ✨ Autoria
 #### 👱🏻‍♀️ Júlia Parizotto Maciel
