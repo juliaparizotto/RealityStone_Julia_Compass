@@ -43,4 +43,10 @@ class Calculadora
         potencia_calculada = a ** b
         potencia_calculada.round(2)
     end
+
+    def seno(a)
+        Math.sin(a * Math::PI/180)
+        seno_calculada = Math.sin(a * Math::PI/180)
+        seno_calculada.round(3)
+    end
 end
