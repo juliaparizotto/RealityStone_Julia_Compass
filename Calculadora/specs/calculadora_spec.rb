@@ -367,4 +367,31 @@ describe('Calculadora') do
         calculadora = Calculadora.new
         expect(calculadora.seno(-0.9)).to eq -0.016
     end
+
+    #----------------- COSSENO -----------------------
+
+    it('Deve fazer o cosseno em graus de um número inteiro positivos') do
+        calculadora = Calculadora.new
+        expect(calculadora.cosseno(30)).to eq 0.866
+    end
+
+    it('Deve fazer o cosseno em graus de um número inteiro negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.cosseno(-90)).to eq 0
+    end
+
+    it('Deve fazer o cosseno em graus de 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.cosseno(0)).to eq 1
+    end
+
+    it('Deve fazer o cosseno em graus de um número decimal positivo') do
+        calculadora = Calculadora.new
+        expect(calculadora.cosseno(0.9)).to eq 1
+    end
+
+    it('Deve fazer o cosseno em graus de um número decimal negativo') do
+        calculadora = Calculadora.new
+        expect(calculadora.cosseno(-0.9)).to eq 1
+    end
 end

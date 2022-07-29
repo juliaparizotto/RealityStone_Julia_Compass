@@ -46,7 +46,13 @@ class Calculadora
 
     def seno(a)
         Math.sin(a * Math::PI/180)
-        seno_calculada = Math.sin(a * Math::PI/180)
-        seno_calculada.round(3)
+        seno_calculado = Math.sin(a * Math::PI/180)
+        seno_calculado.round(3)
+    end
+
+    def cosseno(a)
+        Math.cos(a * (Math::PI/180))
+        cosseno_calculado = Math.cos(a* (Math::PI/180))
+        cosseno_calculado.round(3)
     end
 end
