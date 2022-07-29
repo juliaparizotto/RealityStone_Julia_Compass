@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Repositório com objetivo de enviar as atividades e challenge durante Sprint 4 - Ruby e Versionamento de código.</h4>
+<h4 align="center">Repositório com objetivo de enviar as atividades e challenge final Sprint 4 - Ruby e Versionamento de código.</h4>
 
 <p align="center">
   <a href="#sobres">Sobre</a> •
@@ -35,6 +35,11 @@ Este repositório contém:
         → Subtração
         → Multiplicação
         → Divisão
+        → Radiciação
+        → Potenciação
+        → Seno
+        → Cosseno
+        → Tangente
       → TDD's
 ```
 
@@ -62,12 +67,6 @@ Este repositório contém:
 → rspec "specs\calculadora_spec.rb"
 ```
 
-## ✨ Créditos
-- [Ruby Koans](http://rubykoans.com/)
-- [Ruby](https://rubyinstaller.org/downloads/)
-- [Git](https://git-scm.com/)
-- [Visual Studio Code](https://code.visualstudio.com/download)
-
 ## ✨Licenças
 - Copyright (c) [Júlia Parizotto Maciel](https://github.com/juliaparizotto/RealityStone_Julia_Compass/blob/main/LICENSE)
 - Copyright (c) [Compass](https://compass.uol/)
@@ -76,4 +75,14 @@ Este repositório contém:
 #### 👱🏻‍♀️ Júlia Parizotto Maciel
 - [Linkedin](https://www.linkedin.com/in/j%C3%BAlia-parizotto-maciel/)
 - [Github](https://github.com/juliaparizotto)
+
+### 🧚🏻‍♀️Contribuições
+  - Turma PB RealityStone 3, em especial Maria Lina DallAgnol
+  - ScrumMasters - Larrisa e Jacques
+
+## ✨ Créditos
+- [Ruby Koans](http://rubykoans.com/)
+- [Ruby](https://rubyinstaller.org/downloads/)
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
