@@ -291,27 +291,27 @@ describe('Calculadora') do
 
     it('Deve fazer a raiz quadrada de um número inteiro positivo') do
         calculadora = Calculadora.new
-        expect(calculadora.raiz2(16)).to eq 4
+        expect(calculadora.raiz(16)).to eq 4
     end
 
     it('Não deve fazer a raiz quadrada de números inteiros negativos') do
         calculadora = Calculadora.new
-        expect(calculadora.raiz2(-49)).to include 'Não corresponde á condição de existência!'
+        expect(calculadora.raiz(-49)).to include 'Não corresponde á condição de existência!'
     end
 
     it('Não deve fazer a raiz quadrada de 0') do
         calculadora = Calculadora.new
-        expect(calculadora.raiz2(0)).to include 'Não corresponde á condição de existência!'
+        expect(calculadora.raiz(0)).to include 'Não corresponde á condição de existência!'
     end
 
     it('Deve fazer a raiz quadrada de um número decimal positivo') do
         calculadora = Calculadora.new
-        expect(calculadora.raiz2(0.81)).to eq 0.9
+        expect(calculadora.raiz(0.81)).to eq 0.9
     end
 
     it('Não deve fazer a raiz quadrada de um número decimal negativo') do
         calculadora = Calculadora.new
-        expect(calculadora.raiz2(-9.4)).to include 'Não corresponde á condição de existência!'
+        expect(calculadora.raiz(-9.4)).to include 'Não corresponde á condição de existência!'
     end
 
     #----------------- POTENCIAÇÃO -----------------------

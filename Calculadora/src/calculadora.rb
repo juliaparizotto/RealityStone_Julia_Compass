@@ -7,14 +7,14 @@ class Calculadora
 
     def subtrai(a, b)
         a - b
-        subtração_calculada = a - b
-        subtração_calculada.round(1)
+        subtracao_calculada = a - b
+        subtracao_calculada.round(1)
     end
 
     def multiplica(a, b)
         a * b
-        multiplicação_calculada = a * b
-        multiplicação_calculada.round(1)
+        multiplicacao_calculada = a * b
+        multiplicacao_calculada.round(1)
     end
 
     def divide(a, b)
@@ -22,17 +22,17 @@ class Calculadora
             return 'Não corresponde á condição de existência!'
         end
         a / b
-        divisão_calculada = a / b
-        divisão_calculada.round(1)
+        divisao_calculada = a / b
+        divisao_calculada.round(1)
     end
 
-    def raiz2(a)
+    def raiz(a)
         if a == 0 or a < 0
             return 'Não corresponde á condição de existência!'
         end
         Math.sqrt(a)
-        raiz2_calculada = Math.sqrt(a)
-        raiz2_calculada.round(2)
+        raiz_calculada = Math.sqrt(a)
+        raiz_calculada.round(2)
     end
 
     def potencia(a, b)
