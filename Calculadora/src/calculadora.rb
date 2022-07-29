@@ -35,4 +35,12 @@ class Calculadora
         raiz2_calculada.round(2)
     end
 
+    def potencia(a, b)
+        if a < 0 or b < 0
+            return 'Esta calculadora não suporta potenciação entre números negativos!'
+        end
+        a ** b
+        potencia_calculada = a ** b
+        potencia_calculada.round(2)
+    end
 end

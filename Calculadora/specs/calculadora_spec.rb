@@ -306,11 +306,38 @@ describe('Calculadora') do
 
     it('Deve fazer a raiz quadrada de um número decimal positivo') do
         calculadora = Calculadora.new
-        expect(calculadora.raiz2(0.4)).to eq 0.63
+        expect(calculadora.raiz2(0.81)).to eq 0.9
     end
 
     it('Não deve fazer a raiz quadrada de um número decimal negativo') do
         calculadora = Calculadora.new
         expect(calculadora.raiz2(-9.4)).to include 'Não corresponde á condição de existência!'
+    end
+
+    #----------------- POTENCIAÇÃO -----------------------
+
+    it('Deve fazer a potenciação de dois números inteiros positivos') do
+        calculadora = Calculadora.new
+        expect(calculadora.potencia(8, 2)).to eq 64
+    end
+
+    it('Não deve fazer a potenciação de dois números inteiros negativos') do
+        calculadora = Calculadora.new
+        expect(calculadora.potencia(-6, -64)).to include 'Esta calculadora não suporta potenciação entre números negativos!'
+    end
+
+    it('Deve fazer a potenciação de 0 com 0') do
+        calculadora = Calculadora.new
+        expect(calculadora.potencia(0, 0)).to eq 1
+    end
+
+    it('Deve fazer a potenciação de dois números decimais positivos') do
+        calculadora = Calculadora.new
+        expect(calculadora.potencia(0.81, 0.3)).to eq 0.94
+    end
+
+    it('Não deve fazer a potenciação de dois números decimais negativos') do
+        calculadora = Calculadora.new
+        expect(calculadora.potencia(-9.4, -28.1)).to include 'Esta calculadora não suporta potenciação entre números negativos!'
     end
 end
